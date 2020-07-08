@@ -38,6 +38,9 @@ function! PIEMode()
     " Oscan
     inoremap <leader>osc <Esc>:call ie#oscan#ToggleOscan()<CR>a
     nnoremap <leader>osc :call ie#oscan#ToggleOscan()<CR>
+    " Armenian Script
+    inoremap <leader>arm <Esc>:call ie#armenian#ToggleArmenian()<CR>a
+    nnoremap <leader>arm :call ie#armenian#ToggleArmenian()<CR>
 endfunction
 
 function! PIEModeOFF()
@@ -55,5 +58,7 @@ function! PIEModeOFF()
     nunmap <leader>avs
     iunmap <leader>osc
     nunmap <leader>osc
+    iunmap <leader>arm
+    nunmap <leader>arm
 endfunction
 
