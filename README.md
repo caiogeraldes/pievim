@@ -7,7 +7,7 @@ Most of the modes written so far were specially designed to work in a QWERTY key
 
 So far, the mappings cover:
  - Proto-Indo-European (pie)
- <!-- - Armenian Script (armenian) -->
+ - Armenian Script (armenian)
  - Avestan: 
      - Script (avestan-script) 
      - Transliterated (avestan-trans)

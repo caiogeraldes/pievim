@@ -1,3 +1,13 @@
+"""
+""" Armenian (script): An Armenian transliteration scheme for vim.
+"""
+""" AUTHOR:  Caio Aguida 
+""" EMAIL:   caioaguida@protonmail.com
+""" TWITTER: @silenus32
+"""
+""" License: This file is placed in public domain.
+"""
+
 let g:ArmenianOn=0
 
 function! ie#armenian#ToggleArmenian()
@@ -110,97 +120,97 @@ function! ArmenianOff()
 	let g:ArmenianOn=0
 	echo "Armenian Off"
     iunmap a
-    iunmap b		
-    iunmap g		
-    iunmap d		
-    iunmap e		
-    iunmap ye		
-    iunmap z		
-    iunmap ee		
-    iunmap e'		
-    iunmap t'		
-    iunmap zh		
-    iunmap i		
-    iunmap l		
-    iunmap x		
-    iunmap c		
-    iunmap k		
-    iunmap h		
-    iunmap j		
-    iunmap g.		
+    iunmap b
+    iunmap g
+    iunmap d
+    iunmap e
+    iunmap ye
+    iunmap z
+    iunmap ee
+    iunmap e'
+    iunmap t'
+    iunmap zh
+    iunmap i
+    iunmap l
+    iunmap x
+    iunmap c
+    iunmap k
+    iunmap h
+    iunmap j
+    iunmap g.
     iunmap ch.
-    iunmap m		
-    iunmap y		
-    iunmap n		
-    iunmap sh		
-    iunmap o		
-    iunmap vo		
-    iunmap ch		
-    iunmap p		
-    iunmap jh		
-    iunmap r.		
-    iunmap s		
-    iunmap v		
-    iunmap t		
-    iunmap r		
-    iunmap c'		
-    iunmap w		
-    iunmap p'		
-    iunmap k'		
-    iunmap o'		
-    iunmap f		
+    iunmap m
+    iunmap y
+    iunmap n
+    iunmap sh
+    iunmap o
+    iunmap vo
+    iunmap ch
+    iunmap p
+    iunmap jh
+    iunmap r.
+    iunmap s
+    iunmap v
+    iunmap t
+    iunmap r
+    iunmap c'
+    iunmap w
+    iunmap p'
+    iunmap k'
+    iunmap o'
+    iunmap f
     iunmap u 
-    iunmap ev		
-    iunmap ?		
-    iunmap .		
-    iunmap .'		
-    iunmap ;		
-    iunmap ;'		
-    iunmap !		
-    iunmap ``		
-    iunmap ''		
-    iunmap A		
-    iunmap B		
-    iunmap G		
-    iunmap D		
-    iunmap E		
-    iunmap YE		
-    iunmap Ye		
-    iunmap Z		
-    iunmap EE		
-    iunmap E'		
-    iunmap T'		
-    iunmap ZH		
-    iunmap I		
-    iunmap L		
-    iunmap X		
-    iunmap C		
-    iunmap K		
-    iunmap H		
-    iunmap J		
-    iunmap G.		
-    iunmap CH.	
-    iunmap M		
-    iunmap Y		
-    iunmap N		
-    iunmap SH		
-    iunmap O		
-    iunmap VO		
-    iunmap Vo		
-    iunmap CH		
-    iunmap P		
-    iunmap JH		
-    iunmap R.		
-    iunmap S		
-    iunmap V.		
-    iunmap T		
-    iunmap R		
-    iunmap C'		
-    iunmap W		
-    iunmap P'		
-    iunmap K'		
-    iunmap O		
-    iunmap F	
+    iunmap ev
+    iunmap ?
+    iunmap .
+    iunmap .'
+    iunmap ;
+    iunmap ;'
+    iunmap !
+    iunmap ``
+    iunmap ''
+    iunmap A
+    iunmap B
+    iunmap G
+    iunmap D
+    iunmap E
+    iunmap YE
+    iunmap Ye
+    iunmap Z
+    iunmap EE
+    iunmap E'
+    iunmap T'
+    iunmap ZH
+    iunmap I
+    iunmap L
+    iunmap X
+    iunmap C
+    iunmap K
+    iunmap H
+    iunmap J
+    iunmap G.
+    iunmap CH.
+    iunmap M
+    iunmap Y
+    iunmap N
+    iunmap SH
+    iunmap O
+    iunmap VO
+    iunmap Vo
+    iunmap CH
+    iunmap P
+    iunmap JH
+    iunmap R.
+    iunmap S
+    iunmap V.
+    iunmap T
+    iunmap R
+    iunmap C'
+    iunmap W
+    iunmap P'
+    iunmap K'
+    iunmap O
+    iunmap F
     iunmap U   
 endfunction
 
