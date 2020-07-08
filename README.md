@@ -6,18 +6,18 @@ Some rather basic mappings for typing Indo-European languages and PIE reconstruc
 Most of the modes written so far were specially designed to work in a QWERTY keyboard.
 
 So far, the mappings cover:
- - Proto-Indo-European (pie)
- - Armenian Script (armenian)
+ - Proto-Indo-European (ie/pie.vim)
+ - Armenian Script (ie/armenian.vim)
  - Avestan: 
-     - Script (avestan-script) 
-     - Transliterated (avestan-trans)
+     - Script (ie/avestanscript.vim) 
+     - Transliterated (ie/avestantrans.vim)
  <!-- - Old Church Slavonic Glagolitic (glagolitic) -->
- - Oscan Script (oscan)
- <!-- - Old Persian Cuneiform (old-persian) -->
- - Vedic: Harvard-Kyoto transliteration to IAST (vedic-hk)
+ - Oscan Script (ie/oscan.vim)
+ <!-- - Old Persian Cuneiform (oldpersian) -->
+ - Vedic: Harvard-Kyoto transliteration to IAST (ie/vedichk.vim)
  <!-- - Gothic (gothic) -->
  - Greek:
-    - Polytonic Greek (polytonicgreek)
+    - Polytonic Greek (ie/polytonicgreek.vim)
     <!-- Mycenaean Linear B Script (linearb) -->
     <!-- Cypriot Syllabary (cypriot) -->
 
