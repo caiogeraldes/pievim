@@ -41,6 +41,9 @@ function! PIEMode()
     " Armenian Script
     inoremap <leader>arm <Esc>:call ie#armenian#ToggleArmenian()<CR>a
     nnoremap <leader>arm :call ie#armenian#ToggleArmenian()<CR>
+    " Old Persian
+    inoremap <leader>opers <Esc>:call ie#oldpersian#ToggleOldPersian()<CR>a
+    nnoremap <leader>opers :call ie#oldpersian#ToggleOldPersian()<CR>
 endfunction
 
 function! PIEModeOFF()
@@ -60,5 +63,7 @@ function! PIEModeOFF()
     nunmap <leader>osc
     iunmap <leader>arm
     nunmap <leader>arm
+    iunmap <leader>opers
+    nunmap <leader>opers
 endfunction
 

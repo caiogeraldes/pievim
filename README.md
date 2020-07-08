@@ -13,7 +13,7 @@ So far, the mappings cover:
      - Transliterated (ie/avestantrans.vim)
  <!-- - Old Church Slavonic Glagolitic (glagolitic) -->
  - Oscan Script (ie/oscan.vim)
- <!-- - Old Persian Cuneiform (oldpersian) -->
+ - Old Persian Cuneiform (ie/oldpersian.vim)
  - Vedic: Harvard-Kyoto transliteration to IAST (ie/vedichk.vim)
  <!-- - Gothic (gothic) -->
  - Greek:
