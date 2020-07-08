@@ -1,7 +1,7 @@
 """
 """ Old Persian: A Old-Persian Cuneiform transliteration scheme for vim.
 """
-""" AUTHOR:  Caio Aguida 
+""" AUTHOR:  Caio Aguida
 """ EMAIL:   caioaguida@protonmail.com
 """ TWITTER: @silenus32
 """
@@ -19,7 +19,7 @@ function! ie#oldpersian#ToggleOldPersian()
 endfunction
 
 function! OldPersian()
-	echo "Old Persian Cuneiform Off"
+	echo "Old Persian Cuneiform On"
 	let g:OldPersianOn=1
     inoremap a    𐎠
     inoremap i    𐎡
@@ -97,47 +97,47 @@ endfunction
 function! OldPersianOff()
 	let g:OldPersianOn=0
 	echo "Old Persian Cuneiform Off"
-    iunmap a    
-    iunmap i    
-    iunmap u    
-    iunmap k    
-    iunmap ku   
-    iunmap x    
-    iunmap xi   
-    iunmap xu   
-    iunmap g    
-    iunmap gu   
-    iunmap c    
-    iunmap ç    
-    iunmap j    
-    iunmap ji   
-    iunmap t    
-    iunmap ti   
-    iunmap tu   
-    iunmap th   
-    iunmap d    
-    iunmap di   
-    iunmap du   
-    iunmap p    
-    iunmap f    
-    iunmap b    
-    iunmap n    
-    iunmap ni   
-    iunmap nu   
-    iunmap m    
-    iunmap mi   
-    iunmap mu   
-    iunmap y    
-    iunmap v    
-    iunmap vi   
-    iunmap r    
-    iunmap ri   
-    iunmap l    
-    iunmap s    
-    iunmap z    
-    iunmap š    
-    iunmap sh   
-    iunmap h    
+    iunmap a
+    iunmap i
+    iunmap u
+    iunmap k
+    iunmap ku
+    iunmap x
+    iunmap xi
+    iunmap xu
+    iunmap g
+    iunmap gu
+    iunmap c
+    iunmap ç
+    iunmap j
+    iunmap ji
+    iunmap t
+    iunmap ti
+    iunmap tu
+    iunmap th
+    iunmap d
+    iunmap di
+    iunmap du
+    iunmap p
+    iunmap f
+    iunmap b
+    iunmap n
+    iunmap ni
+    iunmap nu
+    iunmap m
+    iunmap mi
+    iunmap mu
+    iunmap y
+    iunmap v
+    iunmap vi
+    iunmap r
+    iunmap ri
+    iunmap l
+    iunmap s
+    iunmap z
+    iunmap š
+    iunmap sh
+    iunmap h
     iunmap ,ahuramazda1
     iunmap ,ahuramazda2
     iunmap ,ahuramazda3
