@@ -108,7 +108,7 @@ function! LinearB()
      inoremap *63       𐁗
      inoremap *64       𐁘
      inoremap *65       𐀎
-     inoremap ju        𐀎
+     inoremap ju2        𐀎
      inoremap *79       𐁙
      inoremap *82       𐁚
      inoremap *83       𐁛
@@ -381,7 +381,7 @@ function! LinearBOff()
     iunmap *63
     iunmap *64
     iunmap *65
-    iunmap ju
+    iunmap ju2
     iunmap *79
     iunmap *82
     iunmap *83
