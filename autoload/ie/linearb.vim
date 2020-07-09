@@ -13,7 +13,7 @@
 
 let g:LinearBOn=0
 
-function! ToggleLinearB()
+function! ie#linearb#ToggleLinearB()
 	if !g:LinearBOn
 		call LinearB()
 	else
