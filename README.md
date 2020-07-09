@@ -18,6 +18,6 @@ So far, the mappings cover:
  <!-- - Gothic (gothic) -->
  - Greek:
     - Polytonic Greek (ie/polytonicgreek.vim)
-    <!-- Mycenaean Linear B Script (linearb) -->
-    <!-- Cypriot Syllabary (cypriot) -->
+    - Mycenaean Linear B Script (ie/linearb.vim)
+    <!-- - Cypriot Syllabary (cypriot) -->
 

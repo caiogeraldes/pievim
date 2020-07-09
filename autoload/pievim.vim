@@ -26,6 +26,9 @@ function! PIEMode()
     " Polytonic Greek
     inoremap <leader>gr <Esc>:call ie#polytonicgreek#TogglePolytonicGreek()<CR>a
     nnoremap <leader>gr :call ie#polytonicgreek#TogglePolytonicGreek()<CR>
+    " Linear B
+    inoremap <leader>linb <Esc>:call ie#linearb#ToggleLinearB()<CR>a
+    nnoremap <leader>linb :call ie#linearb#ToggleLinearB()<CR>
     " Proto-Indo-European
     inoremap <leader>pie <Esc>:call ie#pie#TogglePIE()<CR>a
     nnoremap <leader>pie :call ie#pie#TogglePIE()<CR>
@@ -65,5 +68,7 @@ function! PIEModeOFF()
     nunmap <leader>arm
     iunmap <leader>opers
     nunmap <leader>opers
+    iunmap <leader>linb
+    nunmap <leader>linb
 endfunction
 
