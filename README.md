@@ -21,3 +21,14 @@ So far, the mappings cover:
     - Mycenaean Linear B Script (ie/linearb.vim)
     <!-- - Cypriot Syllabary (cypriot) -->
 
+
+## Instalation
+
+Any plugin manager for vim should do. So, for example if you are using *plugged*, including the following in your *vim.rc* or *init.vim* will allow you to install it properly.
+
+```{vim}
+call plug#begin('~/.vim/plugged')
+Plug 'caioaguida/pievim'
+""" etc, etc
+call plug#end()
+```
