@@ -298,7 +298,7 @@ endfunction
 
 function! LinearBOff()
 	let g:LinearBOn=0
-	echo     Linear B Off"
+	echo "Linear B Off"
     iunmap a
     iunmap e
     iunmap i
