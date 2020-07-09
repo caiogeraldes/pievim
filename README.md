@@ -22,7 +22,7 @@ So far, the mappings cover:
     <!-- - Cypriot Syllabary (cypriot) -->
 
 
-## Instalation
+## Installation
 
 Any plugin manager for vim should do. So, for example if you are using *plugged*, including the following in your *vim.rc* or *init.vim* will allow you to install it properly.
 
