@@ -580,6 +580,6 @@ function! PolytonicGreekOff()
 	iunmap ,digamma
     iunmap ,sampi
     iunmap ,Sampi
-    iunmap ,san  
-    iunmap ,San  
+    iunmap ,san
+    iunmap ,San
 endfunction
