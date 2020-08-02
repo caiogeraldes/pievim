@@ -309,7 +309,7 @@ endfunction
 
 function! PolytonicGreekOff()
 	let g:PolytonicGreekOn=0
-	echo "Polytonic Greek On"
+	echo "Polytonic Greek Off"
 	iunmap a)
 	iunmap a(
 	iunmap a\)
