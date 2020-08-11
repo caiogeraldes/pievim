@@ -47,7 +47,7 @@ function! Gothic()
     inoremap x     𐍇
     inoremap hw    𐍈
     inoremap o     𐍉
-    inoremap z     𐍊
+    inoremap z'     𐍊
 endfunction
 
 function! GothicOff()
@@ -79,5 +79,5 @@ function! GothicOff()
     iunmap x
     iunmap hw
     iunmap o
-    iunmap z
+    iunmap z'
 endfunction
