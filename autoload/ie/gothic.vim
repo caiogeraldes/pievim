@@ -11,16 +11,16 @@
 let g:GothicOn=0
 
 function! ie#gothic#ToggleGothic()
-	if !g:GothicOn
-		call Gothic()
-	else
-		call GothicOff()
-	endif
+    if !g:GothicOn
+        call Gothic()
+    else
+        call GothicOff()
+    endif
 endfunction
 
 function! Gothic()
-	echo "Gothic On"
-	let g:GothicOn=1
+    echo "Gothic On"
+    let g:GothicOn=1
     inoremap a     𐌰
     inoremap b     𐌱
     inoremap g     𐌲
@@ -29,7 +29,6 @@ function! Gothic()
     inoremap q     𐌵
     inoremap z     𐌶
     inoremap h     𐌷
-    inoremap þ     𐌸
     inoremap th    𐌸
     inoremap i     𐌹
     inoremap k     𐌺
@@ -46,15 +45,14 @@ function! Gothic()
     inoremap w     𐍅
     inoremap f     𐍆
     inoremap x     𐍇
-    inoremap ƕ     𐍈
     inoremap hw    𐍈
     inoremap o     𐍉
     inoremap z     𐍊
 endfunction
 
 function! GothicOff()
-	let g:GothicOn=0
-	echo "Gothic Off"
+    let g:GothicOn=0
+    echo "Gothic Off"
     iunmap a
     iunmap b
     iunmap g
@@ -63,7 +61,6 @@ function! GothicOff()
     iunmap q
     iunmap z
     iunmap h
-    iunmap þ
     iunmap th
     iunmap i
     iunmap k
@@ -80,7 +77,6 @@ function! GothicOff()
     iunmap w
     iunmap f
     iunmap x
-    iunmap ƕ
     iunmap hw
     iunmap o
     iunmap z

@@ -1,7 +1,7 @@
 """
 """ Armenian (script): An Armenian transliteration scheme for vim.
 """
-""" AUTHOR:  Caio Aguida 
+""" AUTHOR:  Caio Aguida
 """ EMAIL:   caioaguida@protonmail.com
 """ TWITTER: @silenus32
 """
@@ -11,16 +11,16 @@
 let g:ArmenianOn=0
 
 function! ie#armenian#ToggleArmenian()
-	if !g:ArmenianOn
-		call Armenian()
-	else
-		call ArmenianOff()
-	endif
+    if !g:ArmenianOn
+        call Armenian()
+    else
+        call ArmenianOff()
+    endif
 endfunction
 
 function! Armenian()
-	echo "Armenian On"
-	let g:ArmenianOn=1
+    echo "Armenian On"
+    let g:ArmenianOn=1
     inoremap a		ա
     inoremap b		բ
     inoremap g		գ
@@ -117,8 +117,8 @@ function! Armenian()
 endfunction
 
 function! ArmenianOff()
-	let g:ArmenianOn=0
-	echo "Armenian Off"
+    let g:ArmenianOn=0
+    echo "Armenian Off"
     iunmap a
     iunmap b
     iunmap g
@@ -159,7 +159,7 @@ function! ArmenianOff()
     iunmap k'
     iunmap o'
     iunmap f
-    iunmap u 
+    iunmap u
     iunmap ev
     iunmap ?
     iunmap .
@@ -211,6 +211,6 @@ function! ArmenianOff()
     iunmap K'
     iunmap O
     iunmap F
-    iunmap U   
+    iunmap U
 endfunction
 
