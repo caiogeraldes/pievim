@@ -38,7 +38,7 @@ function! Gothic()
     inoremap j     𐌾
     inoremap u     𐌿
     inoremap p     𐍀
-    inoremap q     𐍁
+    inoremap q'    𐍁
     inoremap r     𐍂
     inoremap s     𐍃
     inoremap t     𐍄
@@ -70,7 +70,7 @@ function! GothicOff()
     iunmap j
     iunmap u
     iunmap p
-    iunmap q
+    iunmap q'
     iunmap r
     iunmap s
     iunmap t

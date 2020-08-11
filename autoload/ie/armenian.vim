@@ -111,7 +111,7 @@ function! Armenian()
     inoremap W		Ւ
     inoremap P'		Փ
     inoremap K'		Ք
-    inoremap O		Օ
+    inoremap O'		Օ
     inoremap F		Ֆ
     inoremap U      Սւ
 endfunction
@@ -209,7 +209,7 @@ function! ArmenianOff()
     iunmap W
     iunmap P'
     iunmap K'
-    iunmap O
+    iunmap O'
     iunmap F
     iunmap U
 endfunction
