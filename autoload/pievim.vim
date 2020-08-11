@@ -47,6 +47,9 @@ function! PIEMode()
     " Old Persian
     inoremap <leader>opers <Esc>:call ie#oldpersian#ToggleOldPersian()<CR>a
     nnoremap <leader>opers :call ie#oldpersian#ToggleOldPersian()<CR>
+    " Gothic
+    inoremap <leader>got <Esc>:call ie#gothic#ToggleGothic()<CR>a
+    nnoremap <leader>got :call ie#gothic#ToggleGothic()<CR>
 endfunction
 
 function! PIEModeOFF()
@@ -70,5 +73,7 @@ function! PIEModeOFF()
     nunmap <leader>opers
     iunmap <leader>linb
     nunmap <leader>linb
+    iunmap <leader>got
+    nunmap <leader>got
 endfunction
 

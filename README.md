@@ -15,7 +15,7 @@ So far, the mappings cover:
  - Oscan Script (ie/oscan.vim)
  - Old Persian Cuneiform (ie/oldpersian.vim)
  - Vedic: Harvard-Kyoto transliteration to IAST (ie/vedichk.vim)
- <!-- - Gothic (gothic) -->
+ - Gothic (gothic)
  - Greek:
     - Polytonic Greek (ie/polytonicgreek.vim)
     - Mycenaean Linear B Script (ie/linearb.vim)
@@ -28,7 +28,33 @@ Any plugin manager for vim should do. So, for example if you are using *plugged*
 
 ```{vim}
 call plug#begin('~/.vim/plugged')
-Plug 'caioaguida/pievim'
+Plug 'caiogeraldes/pievim'
 """ etc, etc
 call plug#end()
+```
+
+## Usage
+
+The bindings bellow toggle each transliteration system. Please be advised not
+to disable the plugin without disabling any active transliteration scheme.
+The same goes in switching between schemes, always disable your current scheme
+before enabling the following.
+I look forward to implement a smarter switch mechanism, so the plugin does not
+break if the user goes from one scheme to another.
+
+```{vim}
+
+    <leader>pv      " Toggles the plugin
+
+    " The following toggle each script.
+    <leader>hk      " Harvard-Kyoto
+    <leader>gr      " Polytonic Greek
+    <leader>pie     " Proto-Indo-European
+    <leader>av      " Avestan (transliteration)
+    <leader>avs     " Avestan Script
+    <leader>osc     " Oscan
+    <leader>arm     " Armenian
+    <leader>opers   " Old Persian
+    <leader>linb    " Linear B
+    <leader>got     " Gothic
 ```
