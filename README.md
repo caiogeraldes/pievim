@@ -15,11 +15,11 @@ So far, the mappings cover:
  - Oscan Script (ie/oscan.vim)
  - Old Persian Cuneiform (ie/oldpersian.vim)
  - Vedic: Harvard-Kyoto transliteration to IAST (ie/vedichk.vim)
- - Gothic (gothic)
+ - Gothic (ie/gothic.vim)
  - Greek:
     - Polytonic Greek (ie/polytonicgreek.vim)
     - Mycenaean Linear B Script (ie/linearb.vim)
-    <!-- - Cypriot Syllabary (cypriot) -->
+    - Cypriot Syllabary (ie/cypriot.vim)
 
 
 ## Installation
@@ -57,4 +57,5 @@ break if the user goes from one scheme to another.
     <leader>opers   " Old Persian
     <leader>linb    " Linear B
     <leader>got     " Gothic
+    <leader>cyp     " Cypriot
 ```

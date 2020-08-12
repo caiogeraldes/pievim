@@ -1,5 +1,5 @@
 """
-""" Linear B: A Linear B transliteration scheme for emacs.
+""" Linear B: A Linear B transliteration scheme for vim.
 """
 """ AUTHOR:  Caio Aguida
 """ EMAIL:   caioaguida@protonmail.com

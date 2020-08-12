@@ -50,6 +50,9 @@ function! PIEMode()
     " Gothic
     inoremap <leader>got <Esc>:call ie#gothic#ToggleGothic()<CR>a
     nnoremap <leader>got :call ie#gothic#ToggleGothic()<CR>
+    " Cypriot
+    inoremap <leader>cyp <Esc>:call ie#cypriot#ToggleCypriot()<CR>a
+    nnoremap <leader>cyp :call ie#cypriot#ToggleCypriot()<CR>
 endfunction
 
 function! PIEModeOFF()
@@ -75,5 +78,7 @@ function! PIEModeOFF()
     nunmap <leader>linb
     iunmap <leader>got
     nunmap <leader>got
+    iunmap <leader>cyp
+    nunmap <leader>cyp
 endfunction
 
