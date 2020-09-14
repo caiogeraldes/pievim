@@ -40,9 +40,9 @@ function! Luwian()
     inoremap pari               𔐎
     inoremap PRAE               𔐎
     inoremap DOMINA             𔐏
-    inoremap MAGNUS.DOMINA      𔐐
+    inoremap MAGNUSDOMINA      𔐐
     inoremap REX                𔐑
-    inoremap MAGNUS.REX         𔐒
+    inoremap MAGNUSREX         𔐒
     inoremap á                  𔐓
     inoremap *020               𔐔
     inoremap HEROS              𔐕
@@ -72,23 +72,23 @@ function! Luwian()
     inoremap CAPERE             𔐫
     inoremap tà'                𔐬
     inoremap ta-x               𔐭
-    inoremap CAPERE2.CAPERE2    𔐭
+    inoremap CAPERE2CAPERE2    𔐭
     inoremap CAPERE2            𔐮
     inoremap *044               𔐯
     inoremap INFANS             𔐰
     inoremap FILIUS             𔐰
     inoremap FRATER             𔐰
     inoremap FILIA              𔐱
-    inoremap REX.INFANS.FILIUS  𔐲
-    inoremap REX.FILIUS         𔐲
-    inoremap REX.FILIA          𔐳
-    inoremap MAGNUS.FILIA       𔐴
+    inoremap REXINFANSFILIUS  𔐲
+    inoremap REXFILIUS         𔐲
+    inoremap REXFILIA          𔐳
+    inoremap MAGNUSFILIA       𔐴
     inoremap *047               𔐵
     inoremap *048               𔐶
     inoremap a+tá               𔐷
     inoremap *050               𔐸
     inoremap *051               𔐹
-    inoremap MANUS.CULTER       𔐺
+    inoremap MANUSCULTER       𔐺
     inoremap ENSIS              𔐻
     inoremap MANUS+CULTER       𔐻
     inoremap *054               𔐼
@@ -109,7 +109,7 @@ function! Luwian()
     inoremap DARE               𔑈
     inoremap pi                 𔑈
     inoremap pi'                𔑉
-    inoremap DARE.DARE          𔑊
+    inoremap DAREDARE          𔑊
     inoremap MANDARE            𔑊
     inoremap MANDARE2           𔑋
     inoremap *067               𔑌
@@ -137,18 +137,18 @@ function! Luwian()
     inoremap CRUS2              𔑝
     inoremap nà                 𔑝
     inoremap GENUFLECTERE       𔑞
-    inoremap CRUS.CRUS          𔑟
+    inoremap CRUSCRUS          𔑟
     inoremap *087               𔑠
     inoremap *088               𔑡
     inoremap tu                 𔑢
     inoremap PES                𔑣
     inoremap ti                 𔑣
-    inoremap PES.SCALA.ROTAE    𔑤
+    inoremap PESSCALAROTAE    𔑤
     inoremap *092               𔑥
     inoremap PES2               𔑦
     inoremap *094               𔑧
-    inoremap PES2.PES2          𔑨
-    inoremap PES2.PES           𔑩
+    inoremap PES2PES2          𔑨
+    inoremap PES2PES           𔑩
     inoremap LEO                𔑪
     inoremap BESTIA             𔑪
     inoremap LEO2               𔑫
@@ -185,10 +185,10 @@ function! Luwian()
     inoremap muwa               𔑾
     inoremap mu'                𔑿
     inoremap muwa'              𔑿
-    inoremap BOS.MI             𔒀
+    inoremap BOSMI             𔒀
     inoremap mu''               𔒀
     inoremap muwa''             𔒀
-    inoremap BOS2.MI            𔒁
+    inoremap BOS2MI            𔒁
     inoremap mu'''              𔒁
     inoremap muwa'''            𔒁
     inoremap CORNU              𔒂
@@ -320,7 +320,7 @@ function! Luwian()
     inoremap LOCUS              𔓤
     inoremap wa6                𔓤
     inoremap wi6                𔓤
-    inoremap VIA+TERRA.SCALPRUM 𔓥
+    inoremap VIA+TERRASCALPRUM 𔓥
     inoremap VIA+TERRA+SCALPRUM 𔓦
     inoremap (DEUS)VIA+TERRA    𔓧
     inoremap *203               𔓨
@@ -331,7 +331,7 @@ function! Luwian()
     inoremap MONS               𔓬
     inoremap wa5'               𔓬
     inoremap wi5'               𔓬
-    inoremap LEO+MONS.tu+LEO    𔓭
+    inoremap LEO+MONStu+LEO    𔓭
     inoremap *208               𔓮
     inoremap i                  𔓯
     inoremap i(a)               𔓯
@@ -364,7 +364,7 @@ function! Luwian()
     inoremap MURSILI            𔔅
     inoremap REGIO              𔔆
     inoremap tu4                𔔆
-    inoremap mí.REGIO           𔔇
+    inoremap míREGIO           𔔇
     inoremap *230               𔔈
     inoremap CASTRUM            𔔉
     inoremap *232               𔔊
@@ -383,12 +383,12 @@ function! Luwian()
     inoremap VACUUS             𔔗
     inoremap AEDIFICIUM+MINUS   𔔗
     inoremap AEDIFICARE         𔔘
-    inoremap AEDIFICIUM.PONERE  𔔘
+    inoremap AEDIFICIUMPONERE  𔔘
     inoremap DOMUS              𔔙
     inoremap DELERE             𔔚
     inoremap DOMUS+MINUS        𔔚
-    inoremap DEUS.DOMUS         𔔛
-    inoremap MAGNUS.DOMUS       𔔜
+    inoremap DEUSDOMUS         𔔛
+    inoremap MAGNUSDOMUS       𔔜
     inoremap DOMUS+x            𔔝
     inoremap DOMUS+SCALA        𔔞
     inoremap *253               𔔟
@@ -404,7 +404,7 @@ function! Luwian()
     inoremap *263               𔔩
     inoremap PODIUM             𔔪
     inoremap *265               𔔫
-    inoremap PES.REGIO          𔔬
+    inoremap PESREGIO          𔔬
     inoremap STELE              𔔭
     inoremap LAPIS+SCALPRUM     𔔭
     inoremap LAPIS              𔔮
@@ -417,7 +417,7 @@ function! Luwian()
     inoremap *274               𔔵
     inoremap *275               𔔶
     inoremap FRATER2            𔔷
-    inoremap IUDEX.la           𔔸
+    inoremap IUDEXla           𔔸
     inoremap IUDEX+la           𔔸
     inoremap li                 𔔹
     inoremap *279               𔔺
@@ -449,10 +449,10 @@ function! Luwian()
     inoremap THRONUS'           𔕋
     inoremap MENSA2             𔕋
     inoremap SARPA              𔕋
-    inoremap SOL2.THRONUS/MENSA 𔕌
+    inoremap SOL2THRONUS/MENSA 𔕌
     inoremap *295               𔕌
-    inoremap (DEUS)MONS.SARPA   𔕍
-    inoremap (DEUS)MONS.MENSA   𔕍
+    inoremap (DEUS)MONSSARPA   𔕍
+    inoremap (DEUS)MONSMENSA   𔕍
     inoremap THRONUS''          𔕍
     inoremap *297               𔕎
     inoremap THRONUS2           𔕏
@@ -510,7 +510,7 @@ function! Luwian()
     inoremap pa                 𔕸
     inoremap zá                 𔕹
     inoremap ANNUS              𔕺
-    inoremap PITHOS.SCUTELLA    𔕺
+    inoremap PITHOSSCUTELLA    𔕺
     inoremap PITHOS             𔕺
     inoremap zì                 𔕺
     inoremap zì'                𔕻
@@ -576,7 +576,7 @@ function! Luwian()
     inoremap sa8                𔖭
     inoremap MINUS              𔖮
     inoremap MORI               𔖯
-    inoremap VI2.MINUS          𔖯
+    inoremap VI2MINUS          𔖯
     inoremap lignum             𔖰
     inoremap ra                 𔖱
     inoremap ri                 𔖱
@@ -633,7 +633,7 @@ function! Luwian()
     inoremap urhi               𔗘
     inoremap *420               𔗙
     inoremap us                 𔗚
-    inoremap PANIS.SCUTELLA     𔗛
+    inoremap PANISSCUTELLA     𔗛
     inoremap ku                 𔗜
     inoremap *424               𔗝
     inoremap *425               𔗞
@@ -772,9 +772,9 @@ function! LuwianOff()
     iunmap pari
     iunmap PRAE
     iunmap DOMINA
-    iunmap MAGNUS.DOMINA
+    iunmap MAGNUSDOMINA
     iunmap REX
-    iunmap MAGNUS.REX
+    iunmap MAGNUSREX
     iunmap á
     iunmap *020
     iunmap HEROS
@@ -804,23 +804,23 @@ function! LuwianOff()
     iunmap CAPERE
     iunmap tà'
     iunmap ta-x
-    iunmap CAPERE2.CAPERE2
+    iunmap CAPERE2CAPERE2
     iunmap CAPERE2
     iunmap *044
     iunmap INFANS
     iunmap FILIUS
     iunmap FRATER
     iunmap FILIA
-    iunmap REX.INFANS.FILIUS
-    iunmap REX.FILIUS
-    iunmap REX.FILIA
-    iunmap MAGNUS.FILIA
+    iunmap REXINFANSFILIUS
+    iunmap REXFILIUS
+    iunmap REXFILIA
+    iunmap MAGNUSFILIA
     iunmap *047
     iunmap *048
     iunmap a+tá
     iunmap *050
     iunmap *051
-    iunmap MANUS.CULTER
+    iunmap MANUSCULTER
     iunmap ENSIS
     iunmap MANUS+CULTER
     iunmap *054
@@ -841,7 +841,7 @@ function! LuwianOff()
     iunmap DARE
     iunmap pi
     iunmap pi'
-    iunmap DARE.DARE
+    iunmap DAREDARE
     iunmap MANDARE
     iunmap MANDARE2
     iunmap *067
@@ -869,18 +869,18 @@ function! LuwianOff()
     iunmap CRUS2
     iunmap nà
     iunmap GENUFLECTERE
-    iunmap CRUS.CRUS
+    iunmap CRUSCRUS
     iunmap *087
     iunmap *088
     iunmap tu
     iunmap PES
     iunmap ti
-    iunmap PES.SCALA.ROTAE
+    iunmap PESSCALAROTAE
     iunmap *092
     iunmap PES2
     iunmap *094
-    iunmap PES2.PES2
-    iunmap PES2.PES
+    iunmap PES2PES2
+    iunmap PES2PES
     iunmap LEO
     iunmap BESTIA
     iunmap LEO2
@@ -917,10 +917,10 @@ function! LuwianOff()
     iunmap muwa
     iunmap mu'
     iunmap muwa'
-    iunmap BOS.MI
+    iunmap BOSMI
     iunmap mu''
     iunmap muwa''
-    iunmap BOS2.MI
+    iunmap BOS2MI
     iunmap mu'''
     iunmap muwa'''
     iunmap CORNU
@@ -1052,7 +1052,7 @@ function! LuwianOff()
     iunmap LOCUS
     iunmap wa6
     iunmap wi6
-    iunmap VIA+TERRA.SCALPRUM
+    iunmap VIA+TERRASCALPRUM
     iunmap VIA+TERRA+SCALPRUM
     iunmap (DEUS)VIA+TERRA
     iunmap *203
@@ -1063,7 +1063,7 @@ function! LuwianOff()
     iunmap MONS
     iunmap wa5'
     iunmap wi5'
-    iunmap LEO+MONS.tu+LEO
+    iunmap LEO+MONStu+LEO
     iunmap *208
     iunmap i
     iunmap i(a)
@@ -1096,7 +1096,7 @@ function! LuwianOff()
     iunmap MURSILI
     iunmap REGIO
     iunmap tu4
-    iunmap mí.REGIO
+    iunmap míREGIO
     iunmap *230
     iunmap CASTRUM
     iunmap *232
@@ -1115,12 +1115,12 @@ function! LuwianOff()
     iunmap VACUUS
     iunmap AEDIFICIUM+MINUS
     iunmap AEDIFICARE
-    iunmap AEDIFICIUM.PONERE
+    iunmap AEDIFICIUMPONERE
     iunmap DOMUS
     iunmap DELERE
     iunmap DOMUS+MINUS
-    iunmap DEUS.DOMUS
-    iunmap MAGNUS.DOMUS
+    iunmap DEUSDOMUS
+    iunmap MAGNUSDOMUS
     iunmap DOMUS+x
     iunmap DOMUS+SCALA
     iunmap *253
@@ -1136,7 +1136,7 @@ function! LuwianOff()
     iunmap *263
     iunmap PODIUM
     iunmap *265
-    iunmap PES.REGIO
+    iunmap PESREGIO
     iunmap STELE
     iunmap LAPIS+SCALPRUM
     iunmap LAPIS
@@ -1149,7 +1149,7 @@ function! LuwianOff()
     iunmap *274
     iunmap *275
     iunmap FRATER2
-    iunmap IUDEX.la
+    iunmap IUDEXla
     iunmap IUDEX+la
     iunmap li
     iunmap *279
@@ -1181,10 +1181,10 @@ function! LuwianOff()
     iunmap THRONUS'
     iunmap MENSA2
     iunmap SARPA
-    iunmap SOL2.THRONUS/MENSA
+    iunmap SOL2THRONUS/MENSA
     iunmap *295
-    iunmap (DEUS)MONS.SARPA
-    iunmap (DEUS)MONS.MENSA
+    iunmap (DEUS)MONSSARPA
+    iunmap (DEUS)MONSMENSA
     iunmap THRONUS''
     iunmap *297
     iunmap THRONUS2
@@ -1242,7 +1242,7 @@ function! LuwianOff()
     iunmap pa
     iunmap zá
     iunmap ANNUS
-    iunmap PITHOS.SCUTELLA
+    iunmap PITHOSSCUTELLA
     iunmap PITHOS
     iunmap zì
     iunmap zì'
@@ -1308,7 +1308,7 @@ function! LuwianOff()
     iunmap sa8
     iunmap MINUS
     iunmap MORI
-    iunmap VI2.MINUS
+    iunmap VI2MINUS
     iunmap lignum
     iunmap ra
     iunmap ri
@@ -1365,7 +1365,7 @@ function! LuwianOff()
     iunmap urhi
     iunmap *420
     iunmap us
-    iunmap PANIS.SCUTELLA
+    iunmap PANISSCUTELLA
     iunmap ku
     iunmap *424
     iunmap *425
