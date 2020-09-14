@@ -20,6 +20,8 @@ So far, the mappings cover:
     - Polytonic Greek (ie/polytonicgreek.vim)
     - Mycenaean Linear B Script (ie/linearb.vim)
     - Cypriot Syllabary (ie/cypriot.vim)
+ - Anatolian:
+    - Hieroglyphic Luwian (ie/luwian.vim)
 
 
 ## Installation
@@ -58,4 +60,5 @@ break if the user goes from one scheme to another.
     <leader>linb    " Linear B
     <leader>got     " Gothic
     <leader>cyp     " Cypriot
+    <leader>luw     " Hieroglyphic Luwian
 ```
