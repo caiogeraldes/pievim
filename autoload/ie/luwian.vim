@@ -167,12 +167,12 @@ function! Luwian()
     inoremap rú''               𔑵
     inoremap CERVUS3            𔑵
     inoremap CAPRA              𔑶
-    inoremap sá                 𔑶
-    inoremap sá'                𔑷
+    inoremap sà                 𔑶
+    inoremap sà'                𔑷
     inoremap CAPRA2             𔑸
-    inoremap sá''               𔑸
+    inoremap sà''               𔑸
     inoremap CAPRA2A            𔑹
-    inoremap sá'''              𔑹
+    inoremap sà'''              𔑹
     inoremap BOS                𔑺
     inoremap u                  𔑺
     inoremap BOS'               𔑻
@@ -462,8 +462,8 @@ function! Luwian()
     inoremap NEPOS              𔕒
     inoremap LECTUS             𔕓
     inoremap *302               𔕔
-    inoremap sara               𔕕
-    inoremap sari               𔕕
+    inoremap SARA               𔕕
+    inoremap SARI               𔕕
     inoremap mà                 𔕖
     inoremap FUSUS              𔕗
     inoremap hí                 𔕘
@@ -483,8 +483,8 @@ function! Luwian()
     inoremap TESHUB             𔕥
     inoremap ta4                𔕦
     inoremap ti4                𔕦
-    inoremap la                 𔕦
-    inoremap li                 𔕦
+    inoremap la'                 𔕦
+    inoremap li'                 𔕦
     inoremap *320               𔕧
     inoremap *321               𔕨
     inoremap PURUS              𔕩
@@ -546,7 +546,7 @@ function! Luwian()
     inoremap MAGNUS             𔖙
     inoremap ur                 𔖙
     inoremap u'''               𔖚
-    inoremap mu'''              𔖛
+    inoremap mu''''              𔖛
     inoremap *365               𔖜
     inoremap OMNIS(+mi)         𔖝
     inoremap tala               𔖞
@@ -1194,8 +1194,8 @@ function! LuwianOff()
     iunmap NEPOS
     iunmap LECTUS
     iunmap *302
-    iunmap sara
-    iunmap sari
+    iunmap SARA
+    iunmap SARI
     iunmap mà
     iunmap FUSUS
     iunmap hí
@@ -1215,8 +1215,8 @@ function! LuwianOff()
     iunmap TESHUB
     iunmap ta4
     iunmap ti4
-    iunmap la
-    iunmap li
+    iunmap la'
+    iunmap li'
     iunmap *320
     iunmap *321
     iunmap PURUS
@@ -1278,7 +1278,7 @@ function! LuwianOff()
     iunmap MAGNUS
     iunmap ur
     iunmap u'''
-    iunmap mu'''
+    iunmap mu''''
     iunmap *365
     iunmap OMNIS(+mi)
     iunmap tala
