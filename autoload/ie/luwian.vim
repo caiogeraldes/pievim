@@ -658,8 +658,8 @@ function! Luwian()
     inoremap *442               𔗯
     inoremap *443               𔗰
     inoremap *444               𔗱
-    inoremap la                 𔗲
-    inoremap li                 𔗲
+    inoremap la''                 𔗲
+    inoremap li''                 𔗲
     inoremap lu                 𔗲
     inoremap ki                 𔗳
     inoremap ni-x               𔗴
@@ -1390,8 +1390,8 @@ function! LuwianOff()
     iunmap *442
     iunmap *443
     iunmap *444
-    iunmap la
-    iunmap li
+    iunmap la''
+    iunmap li''
     iunmap lu
     iunmap ki
     iunmap ni-x
