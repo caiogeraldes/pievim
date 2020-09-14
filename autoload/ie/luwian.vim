@@ -12,7 +12,7 @@
 
 let g:LuwianOn=0
 
-function! ToggleLuwian()
+function! ie#luwian#ToggleLuwian()
     if !g:LuwianOn
         call Luwian()
     else
