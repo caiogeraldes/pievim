@@ -59,6 +59,9 @@ function! PIEMode()
     " Lycian
     inoremap <leader>lyc <Esc>:call ie#lycian#ToggleLycian()<CR>a
     nnoremap <leader>lyc :call ie#lycian#ToggleLycian()<CR>
+    " Carian
+    inoremap <leader>car <Esc>:call ie#carian#ToggleCarian()<CR>a
+    nnoremap <leader>car :call ie#carian#ToggleCarian()<CR>
 endfunction
 
 function! PIEModeOFF()
@@ -90,6 +93,8 @@ function! PIEModeOFF()
     nunmap <leader>luw
     iunmap <leader>lyc
     nunmap <leader>lyc
+    iunmap <leader>car
+    nunmap <leader>car
 
 endfunction
 

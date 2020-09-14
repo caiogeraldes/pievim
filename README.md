@@ -23,6 +23,7 @@ So far, the mappings cover:
  - Anatolian:
     - Hieroglyphic Luwian (ie/luwian.vim)
     - Lycian (ie/lycian.vim)
+    - Carian (ie/carian.vim)
 
 
 ## Installation
@@ -63,6 +64,7 @@ break if the user goes from one scheme to another.
     <leader>cyp     " Cypriot
     <leader>luw     " Hieroglyphic Luwian
     <leader>lyc     " Lycian
+    <leader>car     " Carian
 ```
 
 ### Logographic and syllabographic scripts
