@@ -62,3 +62,15 @@ break if the user goes from one scheme to another.
     <leader>cyp     " Cypriot
     <leader>luw     " Hieroglyphic Luwian
 ```
+
+### Logographic and syllabographic scripts
+
+Due to the inherent complexity of logographic and syllabographic scripts, some of the coding solutions might be a bit awkward in a first moment, but I will assume nobody will type for a long time using these keybindings.
+The basic idea is:
+ - If a sign has logographic reading, it is coded to the uppercase: OLE = 𐂕
+ - If a sign has syllabographic reading, it is coded to the lowercase: mi = 𐀖
+ - If a sign does not have a unknown or doubtful reading, it is coded by its standard number prefixed by an asterisk: 18 = 𐁐
+ - If multiple signs point to the same value, I used a apostrophe ' to indexed it if it has not been yet coded numerically.
+ - If a sign has multiple values, each different value should be independently coded.
+
+
