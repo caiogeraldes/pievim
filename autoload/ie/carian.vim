@@ -23,55 +23,55 @@ endfunction
 function! Carian()
     echo "Carian On"
     let g:CarianOn=1
-    inoremap A      𐊠
-    inoremap P2     𐊡
-    inoremap D      𐊢
-    inoremap L      𐊣
-    inoremap UUU    𐊤
-    inoremap R      𐊥
-    inoremap LD     𐊦
+    inoremap a      𐊠
+    inoremap b      𐊡
+    inoremap d      𐊢
+    inoremap l      𐊣
+    inoremap y      𐊤
+    inoremap y2     𐋐
+    inoremap r      𐊥
+    inoremap L      𐊦
+    inoremap L2     𐋎
     inoremap A2     𐊧
-    inoremap Q      𐊨
-    inoremap B      𐊩
-    inoremap M      𐊪
-    inoremap O      𐊫
+    inoremap q      𐊨
+    inoremap b      𐊩
+    inoremap m      𐊪
+    inoremap o      𐊫
     inoremap D2     𐊬
-    inoremap T      𐊭
-    inoremap SH     𐊮
-    inoremap SH2    𐊯
-    inoremap S      𐊰
-    inoremap C-18   𐊱
-    inoremap U      𐊲
-    inoremap NN     𐊳
-    inoremap X      𐊴
-    inoremap N      𐊵
-    inoremap TT2    𐊶
-    inoremap P      𐊷
-    inoremap SS     𐊸
-    inoremap I      𐊹
-    inoremap E      𐊺
-    inoremap UUUU   𐊻
-    inoremap K      𐊼
-    inoremap K2     𐊽
-    inoremap ND     𐊾
-    inoremap UU     𐊿
+    inoremap t      𐊭
+    inoremap sh     𐊮
+    inoremap sh2    𐊯
+    inoremap s      𐊰
+    inoremap 18     𐊱
+    inoremap u      𐊲
+    inoremap N      𐊳
+    inoremap c      𐊴
+    inoremap n      𐊵
+    inoremap T2     𐊶
+    inoremap p      𐊷
+    inoremap 's     𐊸
+    inoremap i      𐊹
+    inoremap e      𐊺
+    inoremap ý      𐊻
+    inoremap k      𐊼
+    inoremap k2     𐊽
+    inoremap dh     𐊾
+    inoremap w      𐊿
     inoremap G      𐋀
     inoremap G2     𐋁
-    inoremap ST     𐋂
-    inoremap ST2    𐋃
-    inoremap NG     𐋄
-    inoremap II     𐋅
-    inoremap C-39   𐋆
-    inoremap TT     𐋇
-    inoremap UUU2   𐋈
-    inoremap RR     𐋉
-    inoremap MB     𐋊
-    inoremap MB2    𐋋
-    inoremap MB3    𐋌
-    inoremap MB4    𐋍
-    inoremap LD2    𐋎
-    inoremap E2     𐋏
-    inoremap UUU3   𐋐
+    inoremap z2     𐋂
+    inoremap z      𐋃
+    inoremap ng     𐋄
+    inoremap j      𐋅
+    inoremap 39     𐋆
+    inoremap T      𐋇
+    inoremap y3     𐋈
+    inoremap r2     𐋉
+    inoremap mb     𐋊
+    inoremap mb2    𐋋
+    inoremap mb3    𐋌
+    inoremap mb4    𐋍
+    inoremap e2     𐋏
 endfunction
 
 function! CarianOff()

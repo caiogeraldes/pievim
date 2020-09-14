@@ -77,4 +77,7 @@ The basic idea is:
  - If multiple signs point to the same value, I used a apostrophe ' to indexed it if it has not been yet coded numerically.
  - If a sign has multiple values, each different value should be independently coded.
 
+### Carian transcription
+
+Since Carian has many local scripts without a unified transliteration scheme, I proposed an arbitrary transliteration. If you happen to work with Carian and knows a proper system, please feel free to adapt the code a make a Pull Request or write me an e-mail.
 
