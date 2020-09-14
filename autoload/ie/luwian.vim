@@ -218,7 +218,7 @@ function! Luwian()
     inoremap *122               𔒓
     inoremap *123               𔒔
     inoremap *124               𔒕
-    inoremap lí                 𔒖
+    inoremap lí'                𔒖
     inoremap UNGULA             𔒗
     inoremap li-x               𔒗
     inoremap *126               𔒘
@@ -950,7 +950,7 @@ function! LuwianOff()
     iunmap *122
     iunmap *123
     iunmap *124
-    iunmap lí
+    iunmap lí'
     iunmap UNGULA
     iunmap li-x
     iunmap *126
