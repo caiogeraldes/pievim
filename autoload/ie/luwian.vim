@@ -262,7 +262,7 @@ function! Luwian()
     inoremap *158               𔒹
     inoremap *159               𔒺
     inoremap VITIS              𔒻
-    inoremap wi                 𔒻
+    inoremap wi'                𔒻
     inoremap wi(ya)             𔒻
     inoremap *161               𔒼
     inoremap *162               𔒽
@@ -680,7 +680,7 @@ function! Luwian()
     inoremap *458               𔘁
     inoremap *459               𔘂
     inoremap *460               𔘃
-    inoremap ma-x               𔘄
+    inoremap ma-x'               𔘄
     inoremap *462               𔘅
     inoremap *463               𔘆
     inoremap *464               𔘇
@@ -899,12 +899,12 @@ function! LuwianOff()
     iunmap rú''
     iunmap CERVUS3
     iunmap CAPRA
-    iunmap sá
-    iunmap sá'
+    iunmap sà
+    iunmap sà'
     iunmap CAPRA2
-    iunmap sá''
+    iunmap sà''
     iunmap CAPRA2A
-    iunmap sá'''
+    iunmap sà'''
     iunmap BOS
     iunmap u
     iunmap BOS'
@@ -994,7 +994,7 @@ function! LuwianOff()
     iunmap *158
     iunmap *159
     iunmap VITIS
-    iunmap wi
+    iunmap wi'
     iunmap wi(ya)
     iunmap *161
     iunmap *162
@@ -1412,7 +1412,7 @@ function! LuwianOff()
     iunmap *458
     iunmap *459
     iunmap *460
-    iunmap ma-x
+    iunmap ma-x'
     iunmap *462
     iunmap *463
     iunmap *464
