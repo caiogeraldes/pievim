@@ -53,6 +53,9 @@ function! PIEMode()
     " Cypriot
     inoremap <leader>cyp <Esc>:call ie#cypriot#ToggleCypriot()<CR>a
     nnoremap <leader>cyp :call ie#cypriot#ToggleCypriot()<CR>
+    " Cypriot
+    inoremap <leader>luw <Esc>:call ie#luwian#ToggleLuwian()<CR>a
+    nnoremap <leader>luw :call ie#luwian#ToggleLuwian()<CR>
 endfunction
 
 function! PIEModeOFF()
@@ -80,5 +83,7 @@ function! PIEModeOFF()
     nunmap <leader>got
     iunmap <leader>cyp
     nunmap <leader>cyp
+    iunmap <leader>luw
+    nunmap <leader>luw
 endfunction
 
