@@ -7,15 +7,16 @@ Most of the modes written so far were specially designed to work in a QWERTY key
 
 So far, the mappings cover:
  - Proto-Indo-European (autoload/ie/pie.vim)
- - Armenian Script (autoload/ie/armenian.vim)
+ - Vedic: Harvard-Kyoto transliteration to IAST (autoload/ie/vedichk.vim)
+ - Old Persian Cuneiform (autoload/ie/oldpersian.vim)
  - Avestan: 
      - Script (autoload/ie/avestanscript.vim) 
      - Transliterated (autoload/ie/avestantrans.vim)
  <!-- - Old Church Slavonic Glagolitic (glagolitic) -->
  - Oscan Script (autoload/ie/oscan.vim)
- - Old Persian Cuneiform (autoload/ie/oldpersian.vim)
- - Vedic: Harvard-Kyoto transliteration to IAST (autoload/ie/vedichk.vim)
+ - Ogham Script (autoload/ie/ogham.vim)
  - Gothic (autoload/ie/gothic.vim)
+ - Armenian Script (autoload/ie/armenian.vim)
  - Greek:
     - Polytonic Greek (autoload/ie/polytonicgreek.vim)
     - Mycenaean Linear B Script (autoload/ie/linearb.vim)
@@ -67,6 +68,7 @@ break if the user goes from one scheme to another.
     <leader>lyd     " Lydian
     <leader>lyc     " Lycian
     <leader>car     " Carian
+    <leader>ogh     " Ogham
 ```
 
 ### Logographic and syllabographic scripts
