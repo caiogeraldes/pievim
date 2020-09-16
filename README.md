@@ -6,24 +6,25 @@ Some rather basic mappings for typing Indo-European languages and PIE reconstruc
 Most of the modes written so far were specially designed to work in a QWERTY keyboard.
 
 So far, the mappings cover:
- - Proto-Indo-European (ie/pie.vim)
- - Armenian Script (ie/armenian.vim)
+ - Proto-Indo-European (autoload/ie/pie.vim)
+ - Armenian Script (autoload/ie/armenian.vim)
  - Avestan: 
-     - Script (ie/avestanscript.vim) 
-     - Transliterated (ie/avestantrans.vim)
+     - Script (autoload/ie/avestanscript.vim) 
+     - Transliterated (autoload/ie/avestantrans.vim)
  <!-- - Old Church Slavonic Glagolitic (glagolitic) -->
- - Oscan Script (ie/oscan.vim)
- - Old Persian Cuneiform (ie/oldpersian.vim)
- - Vedic: Harvard-Kyoto transliteration to IAST (ie/vedichk.vim)
- - Gothic (ie/gothic.vim)
+ - Oscan Script (autoload/ie/oscan.vim)
+ - Old Persian Cuneiform (autoload/ie/oldpersian.vim)
+ - Vedic: Harvard-Kyoto transliteration to IAST (autoload/ie/vedichk.vim)
+ - Gothic (autoload/ie/gothic.vim)
  - Greek:
-    - Polytonic Greek (ie/polytonicgreek.vim)
-    - Mycenaean Linear B Script (ie/linearb.vim)
-    - Cypriot Syllabary (ie/cypriot.vim)
+    - Polytonic Greek (autoload/ie/polytonicgreek.vim)
+    - Mycenaean Linear B Script (autoload/ie/linearb.vim)
+    - Cypriot Syllabary (autoload/ie/cypriot.vim)
  - Anatolian:
-    - Hieroglyphic Luwian (ie/luwian.vim)
-    - Lycian (ie/lycian.vim)
-    - Carian (ie/carian.vim)
+    - Hieroglyphic Luwian (autoload/ie/luwian.vim)
+    - Lydian (autoload/ie/lydian.vim)
+    - Lycian (autoload/ie/lycian.vim)
+    - Carian (autoload/ie/carian.vim)
 
 
 ## Installation
@@ -63,6 +64,7 @@ break if the user goes from one scheme to another.
     <leader>got     " Gothic
     <leader>cyp     " Cypriot
     <leader>luw     " Hieroglyphic Luwian
+    <leader>lyd     " Lydian
     <leader>lyc     " Lycian
     <leader>car     " Carian
 ```
