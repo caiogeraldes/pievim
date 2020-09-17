@@ -44,16 +44,16 @@ function! PIE()
 	inoremap lR/	ĺ̥
 	inoremap lRR/	l̥̄́
 	inoremap c		k̑
-	inoremap cw		kʷ
+	inoremap cw		k̑ʷ
 	inoremap kw		kʷ
 	inoremap j		ĝ
-	inoremap jw		gʷ
+	inoremap jw		ĝʷ
 	inoremap bh		bʰ
 	inoremap dh		dʰ
 	inoremap jh		ĝʰ
 	inoremap gh		gʰ
 	inoremap gw		gʷ
-	inoremap gwh	g\textsuperscript{u̯}ʰ
+	inoremap gwh	gʷʰ
 	inoremap h1		h₁
 	inoremap h2		h₂
 	inoremap h3		h₃

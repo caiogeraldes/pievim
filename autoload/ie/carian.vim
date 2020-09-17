@@ -77,53 +77,53 @@ endfunction
 function! CarianOff()
     let g:CarianOn=0
     echo "Carian Off"
-    iunmap A
-    iunmap P2
-    iunmap D
+    iunmap a
+    iunmap b
+    iunmap d
+    iunmap l
+    iunmap y
+    iunmap y2
+    iunmap r
     iunmap L
-    iunmap UUU
-    iunmap R
-    iunmap LD
+    iunmap L2
     iunmap A2
-    iunmap Q
-    iunmap B
-    iunmap M
-    iunmap O
+    iunmap q
+    iunmap b
+    iunmap m
+    iunmap o
     iunmap D2
-    iunmap T
-    iunmap SH
-    iunmap SH2
-    iunmap S
-    iunmap C-18
-    iunmap U
-    iunmap NN
-    iunmap X
+    iunmap t
+    iunmap sh
+    iunmap sh2
+    iunmap s
+    iunmap 18
+    iunmap u
     iunmap N
-    iunmap TT2
-    iunmap P
-    iunmap SS
-    iunmap I
-    iunmap E
-    iunmap UUUU
-    iunmap K
-    iunmap K2
-    iunmap ND
-    iunmap UU
+    iunmap c
+    iunmap n
+    iunmap T2
+    iunmap p
+    iunmap 's
+    iunmap i
+    iunmap e
+    iunmap ý
+    iunmap k
+    iunmap k2
+    iunmap dh
+    iunmap w
     iunmap G
     iunmap G2
-    iunmap ST
-    iunmap ST2
-    iunmap NG
-    iunmap II
-    iunmap C-39
-    iunmap TT
-    iunmap UUU2
-    iunmap RR
-    iunmap MB
-    iunmap MB2
-    iunmap MB3
-    iunmap MB4
-    iunmap LD2
-    iunmap E2
-    iunmap UUU3
+    iunmap z2
+    iunmap z
+    iunmap ng
+    iunmap j
+    iunmap 39
+    iunmap T
+    iunmap y3
+    iunmap r2
+    iunmap mb
+    iunmap mb2
+    iunmap mb3
+    iunmap mb4
+    iunmap e2
 endfunction

@@ -23,65 +23,71 @@ endfunction
 function! Ogham()
     echo "Ogham On"
     let g:OghamOn=1
-    b           ᚁ " BEITH
-    l           ᚂ " LUIS
-    w           ᚃ " FEARN
-    s           ᚄ " SAIL
-    n           ᚅ " NION
-    j           ᚆ " UATH
-    d           ᚇ " DAIR
-    t           ᚈ " TINNE
-    k           ᚉ " COLL
-    kw          ᚊ " CEIRT
-    m           ᚋ " MUIN
-    g           ᚌ " GORT
-    gw          ᚍ " NGEADAL
-    S           ᚎ " STRAIF
-    r           ᚏ " RUIS
-    a           ᚐ " AILM
-    o           ᚑ " ONN
-    u           ᚒ " UR
-    e           ᚓ " EADHADH
-    i           ᚔ " IODHADH
-    ,ear        ᚕ " EABHADH
-    ,or         ᚖ " OR
-    ,uilleann   ᚗ " UILLEANN
-    ,ifin       ᚘ " IFIN
-    ,eam        ᚙ " EAMHANCHOLL
-    ,peith      ᚚ " PEITH
-    >           ᚛
-    <           ᚜
+    inoremap b           ᚁ " BEITH
+    inoremap l           ᚂ " LUIS
+    inoremap w           ᚃ " FEARN
+    inoremap s           ᚄ " SAIL
+    inoremap n           ᚅ " NION
+    inoremap j           ᚆ " UATH
+    inoremap h           ᚆ " UATH
+    inoremap d           ᚇ " DAIR
+    inoremap t           ᚈ " TINNE
+    inoremap k           ᚉ " COLL
+    inoremap kw          ᚊ " CEIRT
+    inoremap c           ᚉ " COLL
+    inoremap cw          ᚊ " CEIRT
+    inoremap m           ᚋ " MUIN
+    inoremap g           ᚌ " GORT
+    inoremap gw          ᚍ " NGEADAL
+    inoremap S           ᚎ " STRAIF
+    inoremap r           ᚏ " RUIS
+    inoremap a           ᚐ " AILM
+    inoremap o           ᚑ " ONN
+    inoremap u           ᚒ " UR
+    inoremap e           ᚓ " EADHADH
+    inoremap i           ᚔ " IODHADH
+    inoremap ,ear        ᚕ " EABHADH
+    inoremap ,or         ᚖ " OR
+    inoremap ,uilleann   ᚗ " UILLEANN
+    inoremap ,ifin       ᚘ " IFIN
+    inoremap ,eam        ᚙ " EAMHANCHOLL
+    inoremap ,peith      ᚚ " PEITH
+    inoremap >           ᚛
+    inoremap <           ᚜
 endfunction
 
 function! OghamOff()
     let g:OghamOn=0
-    b
-    l
-    w
-    s
-    n
-    j
-    d
-    t
-    k
-    kw
-    m
-    g
-    gw
-    S
-    r
-    a
-    o
-    u
-    e
-    i
-    ,ear
-    ,or
-    ,uilleann
-    ,ifin
-    ,eam
-    ,peith
-    >
-    <
+    iunmap b
+    iunmap l
+    iunmap w
+    iunmap s
+    iunmap n
+    iunmap j
+    iunmap d
+    iunmap t
+    iunmap k
+    iunmap kw
+    iunmap m
+    iunmap g
+    iunmap gw
+    iunmap S
+    iunmap r
+    iunmap a
+    iunmap o
+    iunmap u
+    iunmap e
+    iunmap i
+    iunmap ,ear
+    iunmap ,or
+    iunmap ,uilleann
+    iunmap ,ifin
+    iunmap ,eam
+    iunmap ,peith
+    iunmap >
+    iunmap <
+    iunmap h
+    iunmap c
+    iunmap cw
     echo "Ogham Off"
 endfunction
